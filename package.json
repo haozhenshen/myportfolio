@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://haozhenshen.herokuapp.com",
+  "homepage": "https://haozhenshen.github.io/myportfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -29,8 +29,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "heroku-prebuild": "npm install -g serve",
-    "start": "serve -s build",
+    "predeploy": "npm install -g serve",
+    "start": "react-scripts start",
     "dev:js": "node ./backend/app.js",
     "dev:ts": "nodemon ./backend/app.ts",
     "build": "react-scripts build",
