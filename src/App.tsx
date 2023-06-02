@@ -1,35 +1,48 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState, useEffect } from "react";
+import "./components/Style/App.css";
+import {
+  Home,
+  Header,
+  About,
+  Skills,
+  Qualification,
+  Projects,
+  Contact,
+  Footer,
+  ScrollUp,
+  contextDarkMod,
+} from "./components";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App: React.FC = () => {
+  const [IsdarkMode, setIsDarkMode] = useState<boolean>(false);
+
+  const toggleIsDarkMode = (): void => {
+    localStorage.setItem("isDarkMode", JSON.stringify(!IsdarkMode));
+    setIsDarkMode(!IsdarkMode);
+  };
+
+  useEffect(() => {
+    const isDark: boolean = localStorage.getItem("isDarkMode") === "true";
+    setIsDarkMode(isDark);
+  }, [IsdarkMode]);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <contextDarkMod.Provider value={{ IsdarkMode, toggleIsDarkMode }}>
+      <div className="App">
+        <Header />
+        <main className="main">
+          <Home />
+          <About />
+          <Skills />
+          <Qualification />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
+        <ScrollUp />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    </contextDarkMod.Provider>
+  );
+};
 
-export default App
+export default App;
