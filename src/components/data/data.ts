@@ -2,6 +2,10 @@
 import { TypeMyData, TypeNavbar } from "./Models";
 import YelpCamp from "../assets/yelpcamp.png";
 import Pamfg from "../assets/pamfg.png";
+import vaebm_img from "../assets/vaebm.png";
+import vaebm_paper from "../assets/vaebm.pdf";
+import ansn_img from "../assets/ansn.png";
+import ansn_paper from "../assets/ansn.pdf";
 
 export const data: TypeMyData[] = [
   {
@@ -17,6 +21,20 @@ export const data: TypeMyData[] = [
     img_url: `${Pamfg}`,
     link: "https://github.com/haozhenshen/pa-mfg",
     gitHub: "https://github.com/haozhenshen/pa-mfg",
+  },
+  {
+    id: 3,
+    title: "Variational Autoencoder + Energy Based Model",
+    img_url: `${vaebm_img}`,
+    link: vaebm_paper,
+    gitHub: "https://github.com/haozhenshen/vaebm",
+  },
+  {
+    id: 4,
+    title: "Adaptive Noise Score Networks",
+    img_url: `${ansn_img}`,
+    link: ansn_paper,
+    gitHub: "https://github.com/haozhenshen/ansn",
   }
 ];
 
