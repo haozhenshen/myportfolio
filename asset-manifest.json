@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c5655461.css",
-    "main.js": "/static/js/main.d05dcd2a.js",
+    "main.js": "/static/js/main.69026141.js",
     "static/media/vaebm.pdf": "/static/media/vaebm.8683c6fae5a24346d28f.pdf",
     "static/media/ansn.pdf": "/static/media/ansn.ecc38f6660663073aba3.pdf",
     "static/media/vaebm.png": "/static/media/vaebm.c97cfb7674b639d1e1c6.png",
@@ -11,6 +11,8 @@
     "static/media/ansn.png": "/static/media/ansn.72d9a12028b184111b19.png",
     "static/media/me.png": "/static/media/me.9ef32301e9d77d35a5ea.png",
     "static/media/kafka.png": "/static/media/kafka.48d576c080da19c7ce85.png",
+    "static/media/marketview.png": "/static/media/marketview.e1325d170347ad2e3785.png",
+    "static/media/databricks.png": "/static/media/databricks.76bb42eacd16f44a9430.png",
     "static/media/spark.png": "/static/media/spark.789a9a269dfdde1bcc28.png",
     "static/media/optuna.png": "/static/media/optuna.6caf1b62060776e546de.png",
     "static/media/yelpcamp.png": "/static/media/yelpcamp.523f705fd41b4e0a76ba.png",
@@ -27,10 +29,10 @@
     "static/media/keras.png": "/static/media/keras.26c2b48d9b03d275794f.png",
     "index.html": "/index.html",
     "main.c5655461.css.map": "/static/css/main.c5655461.css.map",
-    "main.d05dcd2a.js.map": "/static/js/main.d05dcd2a.js.map"
+    "main.69026141.js.map": "/static/js/main.69026141.js.map"
   },
   "entrypoints": [
     "static/css/main.c5655461.css",
-    "static/js/main.d05dcd2a.js"
+    "static/js/main.69026141.js"
   ]
 }
