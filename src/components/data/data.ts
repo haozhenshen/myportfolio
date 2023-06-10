@@ -6,31 +6,39 @@ import vaebm_img from "../assets/vaebm.png";
 import vaebm_paper from "../assets/vaebm.pdf";
 import ansn_img from "../assets/ansn.png";
 import ansn_paper from "../assets/ansn.pdf";
+import mv_img from "../assets/marketview.png";
 
 export const data: TypeMyData[] = [
   {
     id: 1,
+    title: "Marketview",
+    img_url: `${mv_img}`,
+    link: "https://marketview-alpha.vercel.app/",
+    gitHub: "https://github.com/haozhenshen/marketview",
+  },
+  {
+    id: 2,
     title: "YelpCamp",
     img_url: `${YelpCamp}`,
     link: "https://yelpcamp-by-hzs.herokuapp.com/",
     gitHub: "https://github.com/haozhenshen/YelpCamp",
   },
   {
-    id: 2,
+    id: 3,
     title: "Principal Agent Mean Field Game",
     img_url: `${Pamfg}`,
     link: "https://github.com/haozhenshen/pa-mfg",
     gitHub: "https://github.com/haozhenshen/pa-mfg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Variational Autoencoder + Energy Based Model",
     img_url: `${vaebm_img}`,
     link: vaebm_paper,
     gitHub: "https://github.com/haozhenshen/vaebm",
   },
   {
-    id: 4,
+    id: 5,
     title: "Adaptive Noise Score Networks",
     img_url: `${ansn_img}`,
     link: ansn_paper,

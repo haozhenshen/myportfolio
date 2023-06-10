@@ -66,6 +66,21 @@ const Data: React.FC = () => {
             </div>
           </div>
 
+          <div className="skills__data">
+            {/* <i className="bx bx-badge-check"></i> */}
+            {/* Databricks logo img */}
+            <img
+              src={require("../logos/databricks.png") as string}
+              alt="Databricks logo"
+              className="skills__logo"
+            />
+
+            <div>
+              <h3 className="skills__name">Databricks</h3>
+              <span className="skills__level">Advanced</span>
+            </div>
+          </div>
+
         </div>
        
 
@@ -73,7 +88,7 @@ const Data: React.FC = () => {
           {/*  */}
           <div className="skills__data">
             {/* <i className="bx bx-badge-check"></i> */}
-            {/* PostgreSQL logo img */}
+            {/* Kedro logo img */}
             <img
               src={require("../logos/kedro.png") as string}
               alt="PostgreSQL logo"

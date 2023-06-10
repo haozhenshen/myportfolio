@@ -116,15 +116,15 @@ const BackEnd: React.FC = () => {
 
           <div className="skills__data">
             {/* <i className="bx bx-badge-check"></i> */}
-            {/* Firebase logo img */}
+            {/* Vercel logo img */}
             <img
-              src={require("../logos/firebase.png") as string}
-              alt="Firebase logo"
+              src={require("../logos/vercel.png") as string}
+              alt="Vercel logo"
               className="skills__logo"
             />
 
             <div>
-              <h3 className="skills__name">Firebase</h3>
+              <h3 className="skills__name">Vercel</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

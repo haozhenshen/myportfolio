@@ -71,16 +71,16 @@ const FrontEnd: React.FC = () => {
 
           <div className="skills__data">
             {/* <i className="bx bx-badge-check"></i> */}
-            {/* Figma */}
+            {/* Tailwindcss */}
             <img
-              src={require("../logos/figma.png") as string}
-              alt="Figma logo"
+              src={require("../logos/tailwindcss.png") as string}
+              alt="Tailwindcss logo"
               className="skills__logo"
             />
 
             <div>
-              <h3 className="skills__name">Figma</h3>
-              <span className="skills__level">Basic</span>
+              <h3 className="skills__name">Tailwindcss</h3>
+              <span className="skills__level">Intemediate</span>
             </div>
           </div>
         </div>
@@ -151,14 +151,14 @@ const FrontEnd: React.FC = () => {
           </div>
           <div className="skills__data">
             {/* <i className="bx bx-badge-check"></i> */}
-            {/* Redux logo image */}
+            {/* Three logo image */}
             <img
-              src={require("../logos/redux.png") as string}
-              alt="Redux logo"
+              src={require("../logos/three.png") as string}
+              alt="Three logo"
               className="skills__logo"
             />
             <div>
-              <h3 className="skills__name">Redux</h3>
+              <h3 className="skills__name">Three.js</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
