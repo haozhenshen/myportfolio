@@ -138,7 +138,7 @@ const Qualification: React.FC = () => {
               {/* GRP 5 */}
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualififaction__title">Machine Learning Scientist</h3>
+                  <h3 className="qualififaction__title">Machine Learning Engineer</h3>
                   <span className="qualification__subtitle">
                     BluWave-ai. Ottawa, ON
                   </span>
@@ -169,15 +169,16 @@ const Qualification: React.FC = () => {
                 </div>
               </div>
               {/* GRP 7 */}
+            
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualififaction__title">Data Mining Engineer</h3>
+                  <h3 className="qualififaction__title">Software Engineer</h3>
                   <span className="qualification__subtitle">
-                  CRRC Academy, Beijing, China
+                  Yisen Tech, Beijing, China
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender"></i>
-                    2019 - 2019
+                    2021 - 2021
                   </div>
                 </div>
                 <div>
@@ -185,6 +186,8 @@ const Qualification: React.FC = () => {
                   <span className="qualification__line"></span>
                 </div>
               </div>
+         
+             
               {/* GRP 8 */}
               <div className="qualification__data">
                 <div></div>
@@ -193,13 +196,13 @@ const Qualification: React.FC = () => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualififaction__title">Freelancing</h3>
+                  <h3 className="qualififaction__title">Software Engineer</h3>
                   <span className="qualification__subtitle">
-                    Web Developer
+                    CRRC Academy, Beijing, China
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender"></i>
-                    2019 - present
+                    2019 - 2019
                   </div>
                 </div>
               </div>
